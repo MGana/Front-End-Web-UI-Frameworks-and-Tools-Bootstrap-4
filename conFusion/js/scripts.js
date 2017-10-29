@@ -13,3 +13,11 @@
                 }
             });
         });
+
+        $("#reserveTableButton").click(function() {
+            $('#reserveTableModal').modal('toggle')
+        });
+
+        $("#loginButton").click(function() {
+            $('#loginModal').modal('toggle')
+        });
